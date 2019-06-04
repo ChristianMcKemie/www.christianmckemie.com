@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+	<head>
+
+		<meta charset="utf-8">
+		<title>Christian McKemie</title>
+
+		<!-- Mobile Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="images/favicon.ico">
+
+		<!-- Web Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
+
+		<!-- Bootstrap core CSS -->
+    {{ style('/bootstrap//css/bootstrap.css') }}
+		<!-- <link href="bootstrap/css/bootstrap.css" rel="stylesheet"> -->
+
+		<!-- Font Awesome CSS -->
+    {{ style('/fonts/font-awesome/css/font-awesome.css') }}
+		<!-- <link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet"> -->
+
+		<!-- Plugins -->
+    {{ style('/css/animations.css') }}
+		<!-- <link href="css/animations.css" rel="stylesheet"> -->
+
+		<!-- Worthy core CSS file -->
+    {{ style('/css/style.css') }}
+		<!-- <link href="css/style.css" rel="stylesheet"> -->
+
+		<!-- Custom CSS -->
+    {{ style('/css/custom.css') }}
+		<!-- <link href="css/custom.css" rel="stylesheet"> -->
+	</head>
+
+	<body class="no-trans">
+		<!-- scrollToTop -->
+		<!-- ================ -->
+		<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
+
+		<!-- header start -->
+		<!-- ================ -->
+		<header class="header fixed clearfix navbar navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+
+						<!-- header-left start -->
+						<!-- ================ -->
+						<div class="header-left">
+
+							<!-- logo -->
+							<div class="logo smooth-scroll">
+								<a href="#banner"><img class="img" id="logo" src="images/logo.png" alt=""></a>
+							</div>
+							<!-- name-and-slogan -->
+							<div class="site-name-and-slogan smooth-scroll">
+								<div class="site-name"><a href="#banner">Christian McKemie</a></div>
+								<div class="site-slogan">Web Application Developer</div>
+							</div>
+						</div>
+						<!-- header-left end -->
+
+					</div>
+					<div class="col-md-7">
+
+						<!-- header-right start -->
+						<!-- ================ -->
+						<div class="header-right">
+
+							<!-- main-navigation start -->
+							<!-- ================ -->
+							<div class="main-navigation animated">
+
+								<!-- navbar start -->
+								<!-- ================ -->
+								<nav class="navbar navbar-default" role="navigation">
+									<div class="container-fluid">
+
+										<!-- Toggle get grouped for better mobile display -->
+										<div class="navbar-header">
+											<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+												<span class="sr-only">Toggle navigation</span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+											</button>
+										</div>
+
+										<!-- Collect the nav links, forms, and other content for toggling -->
+										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
+											<ul class="nav navbar-nav navbar-right">
+												<li class="active"><a href="#banner">Home</a></li>
+												<li><a href="#services">Services</a></li>
+												<li><a href="#portfolio">Portfolio</a></li>
+												<li><a href="#contact">Contact</a></li>
+                        <li id="root"></li>
+											</ul>
+										</div>
+
+									</div>
+								</nav>
+								<!-- navbar end -->
+
+							</div>
+							<!-- main-navigation end -->
+
+						</div>
+						<!-- header-right end -->
+
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- header end -->
+
+		<!-- banner start -->
+		<!-- ================ -->
+		<div id="banner" class="banner">
+			<div class="banner-image"></div>
+			<div class="banner-caption">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
+							<h1 class="text-center"><span>Welcome</span></h1>
+							<p class="lead text-center">Hi, My name is Christian. <br /> I'm a Web Applicaiton Developer living in Wilmington, North Carolina. Here you will find my related work experience as well as some of my favorite personal projects.</p>
+							 <p class="lead text-center"> </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- banner end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="section translucent-bg bg-image-1 black">
+			<div class="container object-non-visible" data-animation-effect="fadeIn">
+				<h1 id="services"  class="text-center title">Services</h1>
+				<p class="lead text-center">Language, Framework, Database, and API experience</p>
+				<div class="space"></div>
+				<div class="row">
+					<div class="col-sm-6">
+
+						<div class="media">
+							<div class="media-left">
+								<i class=""><img src="images/react.png" style="height:25px; width:25px;" alt=""></i>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">React.js</h4>
+								<p>A JavaScript library used to quickly build user interfaces</p>
+							</div>
+						</div>
+
+						<div class="media">
+							<div class="media-left">
+								<i class=""><img src="images/laravel-l-slant.png" style="height:18px; width:27px;" alt=""></i>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Laravel</h4>
+								<p>A free, and open source PHP web application framework designed for the development of model–view–controller (MVC) web applications.</p>
+							</div>
+						</div>
+
+						<div class="media">
+							<div class="media-left">
+								<i class=""><img src="images/yii.png" style="height:25x; width:23px;" alt=""></i>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Yii 2</h4>
+								<p>A high performance, component-based PHP framework for rapidly developing modern Web applications.</p>
+							</div>
+						</div>
+
+
+						<div class="media">
+							<div class="media-left">
+								<i class=""><img src="images/wordpresslogo.png" style="height:25px; width:25px;" alt=""></i>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">WordPress</h4>
+								<p>A free and open-source blogging tool and a content management system (CMS) based on PHP and MySQL.</p>
+							</div>
+						</div>
+
+								<div class="media">
+							<div class="media-left">
+										<i class=""><img src="images/wowzaicon.png" style="height:22px; width:22px;" alt=""></i>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Wowza Streaming Engine</h4>
+								<p>A unified streaming media server software used for streaming of live and on-demand video, audio, and Rich Internet Applications over IP networks.</p>
+							</div>
+						</div>
+
+						<div class="space visible-xs"></div>
+
+
+					</div>
+
+					<div class="col-sm-6">
+
+			<div class="media">
+							<div class="media-left">
+								<i class=""><img src="images/Googlemapslogo.png" style="height:25px; width:25px;" alt=""></i>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Google Maps Javascript API</h4>
+								<p>By using the Google Maps API, it is possible to embed Google Maps site into an external website, on to which site specific data can be overlaid.</p>
+							</div>
+						</div>
+
+			<div class="media">
+							<div class="media-left">
+								<i class=""><img src="images/facebookicon.png" style="height:25px; width:25px;" alt=""></i>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Facebook SDK</h4>
+								<p>Provides developers with a modern, native library for accessing the Graph API and taking advantage of the Facebook Login.</p>
+							</div>
+						</div>
+			<div class="media">
+							<div class="media-left">
+								<i class=""><img src="images/awsicon.png" style="height:27px; width:27px;" alt=""></i>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Amazon AWS</h4>
+								<p>A collection of remote computing services that make up a cloud computing platform offered by Amazon.com. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="default-bg space blue">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<h1 class="text-center">Let's Code Together</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="section">
+			<div class="container">
+				<h1 class="text-center title" id="portfolio">Portfolio</h1>
+
+
+				<div class="row object-non-visible" data-animation-effect="fadeIn">
+					<div class="col-md-12">
+
+						<!-- isotope filters start -->
+						<!-- <div class="filters text-center">
+							<ul class="nav nav-pills">
+								<li class="active"><a href="#" data-filter="*">All</a></li>
+								<li><a href="#" data-filter=".web-design">Web design</a></li>
+								<li><a href="#" data-filter=".app-development">App development</a></li>
+								<li><a href="#" data-filter=".site-building">Site building</a></li>
+							</ul>
+						</div> -->
+						<!-- isotope filters end -->
+
+						<!-- portfolio items start -->
+						<div class="isotope-container row grid-space-20">
+							<div class="col-sm-6 col-md-3 isotope-item web-design app-development site-building">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img class="img"src="images/SME-Logo-2018.png" alt="">
+										<a class="overlay" target="_blank" href="https://www.smeincusa.com/">
+											<i class="fa fa-search-plus"></i>
+											</a>
+									</div>
+									<a class="btn btn-default btn-block" target="_blank" href="https://www.smeincusa.com/">Superior Medical Equipment</a>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-md-3 isotope-item web-design app-development site-building">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img class="img"src="images/am.jpg" alt="">
+										<a class="overlay" target="_blank" href="https://www.americasmattress.com">
+											<i class="fa fa-search-plus"></i>
+											</a>
+									</div>
+									<a class="btn btn-default btn-block" target="_blank" href="https://www.americasmattress.com">America's Mattress</a>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-md-3 isotope-item web-design app-development site-building">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img class="img"src="images/isi.png" alt="">
+										<a class="overlay" target="_blank" href="https://sustainableinfrastructure.org">
+											<i class="fa fa-search-plus"></i>
+											</a>
+									</div>
+									<a class="btn btn-default btn-block" target="_blank" href="https://sustainableinfrastructure.org">Sustainable Infrastructure</a>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-md-3 isotope-item web-design app-development site-building">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img class="img"src="images/oth.jpg" alt="">
+										<a class="overlay" target="_blank" href="http://www.offthehookyachts.com">
+											<i class="fa fa-search-plus"></i>
+											</a>
+									</div>
+									<a class="btn btn-default btn-block" target="_blank" href="http://www.offthehookyachts.com">Off The Hook Yacht Sales</a>
+								</div>
+							</div>
+
+								<!-- Modal -->
+								<!-- <div class="modal fade" id="project-1" tabindex="-1" role="dialog" aria-labelledby="project-1-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-1-label">The Night Seen</h4>
+											</div>
+											<div class="modal-body">
+												<h3>thenightseen.com</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p></p>
+														<p></p>
+													</div>
+													<div class="col-md-6">
+
+														<img class="img" src="images/seensplash.jpg" alt="Splash">
+														<div class="space"></div>
+														<img class="img" src="images/seenpage.jpg" alt="Page">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div> -->
+								<!-- Modal end -->
+							</div>
+						</div>
+						<!-- portfolio items end -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="default-bg space">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<h1 class="text-center">Thank You!</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+
+		<!-- footer start -->
+		<!-- ================ -->
+		<footer id="footer">
+
+			<!-- .footer start -->
+			<!-- ================ -->
+			<div class="footer section">
+				<div class="container">
+					<h1 class="title text-center" id="contact">Contact</h1>
+					<div class="space"></div>
+					<div class="row">
+						<div class="col-sm-6 col-sm-offset-3 text-center">
+							<div class="footer-content">
+								<p class="large">My resume is available here:</p>
+								<ul class="list-icons">
+									<a target="_blank" href="Christian_McKemie_Resume.pdf" class="btn btn-default">
+                        			View Resume</a>
+					                <div class="space"></div>
+									</ul>
+								<ul class="list-icons">
+									<li><i class="fa fa-map-marker pr-10"></i> Wilmington, NC 28409</li>
+									<li><i class="fa fa-phone pr-10"></i> (910) 616-0696</li>
+									<li><i class="fa fa-envelope-o pr-10"></i> cpmckemie0627@gmail.com</li>
+								</ul>
+								</div>
+						</div>
+						<!-- <div class="col-sm-6">
+							<div class="footer-content">
+								<form role="form" id="footer-form">
+									<div class="form-group has-feedback">
+										<label class="sr-only" for="name2">Name</label>
+										<input type="text" class="form-control" id="name2" placeholder="Name" name="name2" required>
+										<i class="fa fa-user form-control-feedback"></i>
+									</div>
+									<div class="form-group has-feedback">
+										<label class="sr-only" for="email2">Email address</label>
+										<input type="email" class="form-control" id="email2" placeholder="Email Address" name="email2" required>
+										<i class="fa fa-envelope form-control-feedback"></i>
+									</div>
+									<div class="form-group has-feedback">
+										<label class="sr-only" for="message2">Message</label>
+										<textarea class="form-control" rows="8" id="message2" placeholder="Message" name="message2" required></textarea>
+										<i class="fa fa-pencil form-control-feedback"></i>
+									</div>
+									<input type="submit" value="Send" class="btn btn-default">
+								</form>
+							</div>
+						</div> -->
+					</div>
+				</div>
+			</div>
+			<!-- .footer end -->
+
+			<!-- .subfooter start -->
+			<!-- ================ -->
+			<div class="subfooter">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<p class="text-center">Copyright © 2019 Christian McKemie
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- .subfooter end -->
+
+		</footer>
+		<!-- footer end -->
+
+		<!-- JavaScript files placed at the end of the document so the pages load faster
+		================================================== -->
+		<!-- Jquery and Bootstap core js files -->
+    {{ script('/plugins/jquery.min.js') }}
+
+    {{ script('/bootstrap/js/bootstrap.min.js') }}
+
+		<!-- Modernizr javascript -->
+    {{ script('/plugins/modernizr.js') }}
+
+		<!-- Isotope javascript -->
+    {{ script('/plugins/isotope/isotope.pkgd.min.js') }}
+
+		<!-- Backstretch javascript -->
+    {{ script('/plugins/jquery.backstretch.min.js') }}
+
+		<!-- Appear javascript -->
+    {{ script('/plugins/jquery.appear.js') }}
+
+		<!-- Initialization of Plugins -->
+    {{ script('/js/template.js') }}
+
+    <!-- React Clock -->
+    {{ script('/js/index') }}
+
+	</body>
+</html>
