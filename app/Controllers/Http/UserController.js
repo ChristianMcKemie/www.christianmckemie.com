@@ -1,9 +1,10 @@
-'use strict'
+"use strict";
 
 class UserController {
-  async index({request, response, view}) {
-  return view.render('index')
+  async index({ request, response, view }) {
+    const data = { year: new Date().getFullYear() };
+    return view.render("index", data);
   }
 }
 
-module.exports = UserController
+module.exports = UserController;

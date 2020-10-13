@@ -18,4 +18,3 @@ const Route = use('Route')
 
 Route.get('/', 'UserController.index')
 Route.get('/test', 'UserController.test')
-Route.on('/').render('welcome')
