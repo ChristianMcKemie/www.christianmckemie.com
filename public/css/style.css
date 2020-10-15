@@ -115,7 +115,7 @@ blockquote {
 
 #logo{
 border-radius: 7px;
-
+max-width: 9rem;
 }
 
 /* Layout
@@ -560,6 +560,7 @@ textarea {
 	float: left;
 }
 .site-name {
+	margin: 1rem .5rem 0;
 	font-size: 35px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -578,6 +579,7 @@ textarea {
 	text-decoration: none;
 }
 .site-slogan {
+	text-align: center;
 	font-size: 12px;
 }
 
